@@ -3,8 +3,10 @@ min=1
 max=6
 stillplay="y"
 
+
 def dice_roll():
     return random.randint(min, max)
+
 
 def duel_with_pc():
     pc_value=value=0
